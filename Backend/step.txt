@@ -1,0 +1,7 @@
+create use account
+mysql
+schema
+model
+usercreate ->password ->hash
+jwt token -> cookie
+login -> token - decrypt -> email

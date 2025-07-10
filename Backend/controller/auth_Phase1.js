@@ -1,7 +1,6 @@
 import express from 'express'
 import cookieParser from 'cookie-parser';
 import jwt from "jsonwebtoken"
-const app = express();
 import bcrypt from 'bcrypt';
 
 const authRoutes = express.Router();
