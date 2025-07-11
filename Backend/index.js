@@ -10,7 +10,7 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   console.log("Api is running");
   // res.send("Api is running");
-  res.render("index");
+  res.render("signup");
 });
 
 app.use(express.urlencoded({ extended: true }));

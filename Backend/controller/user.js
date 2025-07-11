@@ -1,6 +1,6 @@
 import db from "../module/db.js";
 
-const addUser = (username, email, password, age) => {
+const userModel = (username, email, password, age) => {
   return new Promise((resolve, reject) => {
     const query =
       "INSERT INTO users (username, email, password, age) VALUES (?, ?, ?, ?)";
@@ -11,4 +11,4 @@ const addUser = (username, email, password, age) => {
   });
 };
 
-export default addUser;
+export default userModel;
